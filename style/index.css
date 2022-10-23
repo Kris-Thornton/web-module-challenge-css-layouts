@@ -1,1 +1,140 @@
 /* Add CSS styling here */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 2;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container{
+    width: 100%;
+    background-color: bisque;
+    height: 15vh;
+    padding-top: 1%;
+    
+}
+
+.mainName{
+    
+    width: 100%;
+    display: flex;
+    ;
+    
+    
+}
+.mainName .mainTitle {
+    font-size: 4rem;
+}
+
+.items {
+    
+    
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.items a {
+    background: brown;
+    border: 1px solid black;
+    color: white;
+    width: 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+/* ------------------------------------- */
+.about {
+    width: 100%;
+    display: flex;
+    padding-bottom: 40px;
+    
+}
+.about h3 a{
+    background-color: brown;
+    color: white;
+    width: fit-content;
+    margin: 1%;
+    padding: 1%;
+}
+.heroImg img{
+    width: 700px;
+    height: 40vh;
+    padding: 10px;
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.aboutMe h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.aboutMe p {
+    border: 1px solid red;
+    display: flex;
+    font-weight: bold;
+    width: 80%;
+    padding: 2%;
+}
+/* -------------------------------------------- */
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.item {
+    width: 200px;
+    height: 200px;
+    background-color: lightslategray;
+    margin: 10px;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.gallery p {
+    display: flex;
+    justify-content: center;
+}
+
+/* -------------------------------------- */
+
+.theBottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: bisque;
+    height: 15vh;
+}
+
+.theBottom h2 {
+    font-size: 2rem;
+}
+
+.theBottom a {
+    background-color: brown;
+    color: white;
+    font-size: 1.3rem;
+    padding: 1%;
+    border: 1px solid black;
+}
+
+
+
+
+
